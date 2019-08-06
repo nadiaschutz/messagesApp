@@ -1,0 +1,23 @@
+{
+  "name": "messagesapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jasmine",
+    "start": "node server.js",
+    "nodemon": "npx nodemon"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.0",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "jasmine": "^3.4.0",
+    "request": "^2.88.0"
+  }
+}
